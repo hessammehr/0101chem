@@ -1,0 +1,50 @@
+dfn {
+    display: inline-block;
+    position: relative;
+    cursor: help;
+    /* padding: 4px; */
+    /* padding-bottom: 0px; */
+    font-style: normal;
+    border-bottom: 1px dotted black;
+}
+/* Tooltip styling */
+dfn:before {
+    content: attr(def);
+    display: none;
+    position: absolute;
+    background: rgb(204, 211, 197);
+    color: rgb(11, 12, 11);
+    padding: 4px 8px;
+    font-size: 14px;
+    line-height: 1.4;
+    min-width: 400px;
+    text-align: center;
+    border-radius: 4px;
+    left: 50%;
+    transform: translateX(-50%);
+    bottom: 100%;
+    margin-bottom: 6px;
+}
+
+/* Tooltip arrow styling/placement */
+dfn:after {
+    content: '';
+    display: none;
+    position: absolute;
+    width: 0;
+    height: 0;
+    border-color: transparent;
+    border-style: solid;
+    left: 50%;
+    margin-left: -6px;
+    bottom: 100%;
+    border-width: 6px 6px 0;
+    border-top-color: rgb(204, 211, 197);
+}
+
+/* Show the tooltip when hovering */
+dfn:hover:before,
+dfn:hover:after {
+    display: block;
+    z-index: 50;
+}
