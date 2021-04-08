@@ -19,6 +19,8 @@ h2 {
 
 iframe {
     aspect-ratio: 16/10.5;
+    /* Workaround for browsers that don't support aspect-ratio yet */
+    min-height: 30em;
     margin: 0 auto;
     width: 90%;
     display: block;
