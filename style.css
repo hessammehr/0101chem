@@ -11,18 +11,20 @@
 h1 {
     text-align: center;
     font-size: 64px;
+    margin-bottom: 10px;
 }
 
 h2 {
     margin-top: 1.5em;
 }
 
-iframe {
+iframe.slides {
     aspect-ratio: 16/10.5;
-    /* Workaround for browsers that don't support aspect-ratio yet */
-    min-height: 30em;
-    margin: 0 auto;
     width: 90%;
+}
+
+iframe {
+    margin: 0 auto;
     display: block;
 }
 
@@ -39,4 +41,24 @@ body {
     font-family: sans-serif;
     margin: 0 auto;
     width: max(50%, 520px);
+}
+
+figure img {
+    display: block;
+    margin: 0 auto;
+    width: 90%;
+}
+
+figcaption {
+    font-style: italic;
+    text-align: center;
+}
+
+nav {
+    text-align: center;
+    font-size: large;
+}
+
+nav a {
+    color: #50bb5f;   
 }
