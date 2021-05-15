@@ -28,7 +28,7 @@ Just like we can use programming languages to write code that precisely communic
 ## Search, surprise, discovery
 Many everyday situations require us to find a happy medium — turning the dials until everything is just right. Here is an example. Try seasoning a dish to perfection by finding the right amount of salt and pepper.
 
-<iframe src="http://scratch.mit.edu/projects/530999790/embed" class="scratch" allowtransparency="true" width="485" height="402" frameborder="0" scrolling="no" allowfullscreen></iframe>
+<iframe src="https://scratch.mit.edu/projects/530999790/embed" class="scratch" allowtransparency="true" width="485" height="402" frameborder="0" scrolling="no" allowfullscreen></iframe>
 [Edit me][Seasoning]
 
 A lot of science and engineering is also about searching for the best <dfn def="Parameters, variables (sometimes also called inputs): Things that we can choose, adjust or specify that will determine the outcome of an experiment or process.">parameters</dfn> in a given a problem.
