@@ -21,7 +21,7 @@ There is a reason cooking takes years to master. A lot goes into making a delici
 
 Chemicals and chemical reactions can be even more picky. Some compounds are quickly oxidized when exposed to oxygen in the air, for example, and some reactions only work within a precise temperature range. That's why chemical procedures are often more detailed than cooking recipes. Thankfully, computers are very good at following instructions exactly; they do exactly what they are told, no more and no less.
 
-![Fancy a nice plate of paste? Here's some code to make it.](media/spaghetti-colour-cropped.png)
+![Fancy a nice plate of pasta? Here's some code to make it.](media/spaghetti-colour-cropped.png)
 
 Just like we can use programming languages to write code that precisely communicates our intentions to the computer, we can do the same thing for chemistry: write chemical programs that a robot (or a human who doesn't know much about chemistry) can execute.
 
