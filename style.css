@@ -18,6 +18,11 @@ h2 {
     margin-top: 1.5em;
 }
 
+h3 {
+    text-align: center;
+    font-weight: normal;
+}
+
 iframe.slides {
     aspect-ratio: 16/10.5;
     width: 90%;
@@ -61,4 +66,10 @@ nav {
 
 nav a {
     color: #50bb5f;   
+}
+
+h3 img {
+    width: 40%;
+    display: block;
+    margin: 0.5em auto 0;
 }
