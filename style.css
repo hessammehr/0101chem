@@ -66,7 +66,9 @@ nav {
 }
 
 nav a {
-    color: #50bb5f;   
+    color: #50bb5f;  
+    margin-left: 0.25em;
+    margin-right: 00.25em; 
 }
 
 h3 img {
