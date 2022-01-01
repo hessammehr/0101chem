@@ -5,6 +5,7 @@ title: 0101chem
 # <span class="digital">0101</span>chem
 <nav>
 <a href="about.html"/>about</a>
+<a href="https://www.youtube.com/watch?v=LdGD7-9-e5A" target="_blank"/>talk</a>
 </nav>
 
 ## A little introduction
